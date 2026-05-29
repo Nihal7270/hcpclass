@@ -8,7 +8,7 @@ resource "aws_instance" "example" {
   instance_type = "t3.micro"
 
   tags = {
-    Name = "raham-instance"
+    Name = "raham-instance-one"
   }
 }
 
